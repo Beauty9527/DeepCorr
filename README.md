@@ -2,7 +2,7 @@
 A hybrid error correction algorithm based on Recurrent Neural Network
 ## Environment requirements
 Make sure the server is installed Minimap2, Samtools, and Anaconda.  
-The environment requirement: python3.6, Tensorflow 2.3  
+The environment requirement: python3.6, Tensorflow-gpu 2.3  
 
 ## Correction steps
 Run prepare correction_data_pb.sh to correct a pacbio long reads, the same execution as ONT reads  

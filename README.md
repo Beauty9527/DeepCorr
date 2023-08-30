@@ -1,5 +1,5 @@
 # RNNHC
-A hybrid error correction algorithm based on deep learning
+A hybrid error correction algorithm for long reads based on Recurrent Neural Network
 ## Environment requirements
 Make sure the server is installed Minimap2, Samtools, and Anaconda.  
 The environment requirement: python3.6, Tensorflow-gpu 2.3  

@@ -1,5 +1,5 @@
 # RNNHC
-A hybrid error correction algorithm for long reads based on Recurrent Neural Network
+An efficient error correction method for TGS Long reads based on deep learning
 ## Environment requirements
 Make sure the server is installed Minimap2, Samtools, and Anaconda.  
 The environment requirement: python3.6, Tensorflow-gpu 2.3  
@@ -14,5 +14,6 @@ mp_SR_as_label.py is used to encode the pileup file for train
 tf_train_for_SR_as_label.py is used to train the model  
 tf_infer_for_SR_as_label.py is used to predict and decode the corrected reads  
 coverage_count3.0.py is used to count the percent of bases in long reads that covered by short reads
+draw.py is used to show the results in a figure
 ## 
-for yeast PacBio dataset, minimap2 should add the parameters "minimap2 --split-prefix=tmp -ax sr -t"
+for yeast PacBio dataset, minimap2 process should add the parameters "minimap2 --split-prefix=tmp -ax sr -t"

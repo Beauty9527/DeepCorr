@@ -13,7 +13,7 @@ the script includes the process of evaluation.
 mp_SR_as_label.py is used to encode the pileup file for train 
 tf_train_for_SR_as_label.py is used to train the model  
 tf_infer_for_SR_as_label.py is used to predict and decode the corrected reads  
-coverage_count3.0.py is used to count the percent of bases in long reads that covered by short reads
+coverage_count3.0.py is used to count the percent of bases in long reads that covered by short reads  
 draw.py is used to show the results in a figure
 ## 
 for yeast PacBio dataset, minimap2 process should add the parameters "minimap2 --split-prefix=tmp -ax sr -t"
